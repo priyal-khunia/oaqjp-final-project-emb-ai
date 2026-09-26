@@ -1,0 +1,4 @@
+python3
+>>> from emotion_detection import emotion_detector
+>>> emotion_detector("I love this new technology.")
+'{"emotionPredictions":[{"emotion":{"anger":0.006274985,"disgust":0.00255969,"fear":0.009251528,"joy":0.9680387,"sadness":0.049744114},"target":"","emotionMentions":[{"span":{"begin":0,"end":26,"text":"I love this new technology."},"emotion":{"anger":0.006274985,"disgust":0.00255969,"fear":0.009251528,"joy":0.9680387,"sadness":0.049744114}}]}],"producerId":{"name":"Voting Predictor","version":"0.0.1"}}'
